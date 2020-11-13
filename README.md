@@ -12,7 +12,7 @@ Package for Multiple-criteria decision-making using TOPSIS. Requires input file,
 ### Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Topsis-Mitul-101803084.
 
 ```bash
-pip install Topsis-Mitul-101803084
+pip install TOPSIS-Mitul-101803084
 ```
 
 ## Usage
