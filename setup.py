@@ -15,7 +15,7 @@ setup(
   author = 'Mitul Tandon',                
   author_email = 'mitultandon56@gmail.com', 
   url = 'https://github.com/mitul01/topsis',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/mitul01/topsis/archive/v0.0.1.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/mitul01/topsis/archive/v0.0.2.tar.gz',    # I explain this later on
   keywords = ['MCDA','TOPSIS','Data Science'],   
   install_requires=[            
           'pandas',
