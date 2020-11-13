@@ -5,10 +5,10 @@ with open("README.md",'r') as fh:
 
 setup(
   name = 'TOPSIS_Mitul_101803084',          
-  version = '0.0.1',     
-  license='MIT',
-  py_modules=["TOPSIS_Mitul_101803084"], 
-  package_dir={'','src'},       
+  py_modules=['TOPSIS_Mitul_101803084'],
+  package_dir={'':'src'},
+  version = '0.0.2',     
+  license='MIT',      
   description = 'Package for Multiple-criteria decision-making using TOPSIS.Requires input file,weights and impacts. Returns dataframe with score and rank of every label.This package can help improve decision-making.',   # Give a short description about your library
   long_description_content_type='text/markdown',
   long_description=long_description,
@@ -16,8 +16,8 @@ setup(
   author_email = 'mitultandon56@gmail.com', 
   url = 'https://github.com/mitul01/topsis',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/mitul01/topsis/archive/v0.0.1.tar.gz',    # I explain this later on
-  keywords = ['MCDA','TOPSIS','Data Science'],   # Keywords that define your package best
-  install_requires=[            # I get to this in a second
+  keywords = ['MCDA','TOPSIS','Data Science'],   
+  install_requires=[            
           'pandas',
           'numpy',
       ],
@@ -30,7 +30,5 @@ setup(
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: 3.8',
   ],
 )
